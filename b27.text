@@ -1,0 +1,92 @@
+
+#HTML
+boilerplate
+title tag
+h1-h6 , br , hr , sub , sup , p , a , b , i , img , forms , input , lorem , link,  link-favicon , 
+placeholder
+div id class #div = id  .div = class 
+id is for unique specification.
+#name = div id automated
+
+#CSS
+boilerplate
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+color
+background color
+font-size:- __px;
+font family
+font weight 
+
+font style
+ css file work your name
+ percent depends on parent's dimension
+ bgi:-url()
+ bgsize:- cover
+ google font :-download-zip file-open-install-wrtie name
+ text algin
+task for today theme and text web page
+top left right bottom z index doesnt work without position
+absolute is outside the reference
+relative is wrt the refernce
+image hover:- mouse on image.
+transition:- cubic 0.19
+transform:-
+only alter one side of image;
+overflow : hidden
+justify content:-x axis position (main axis)
+display :[flex]
+space betw space around space evenly
+remix icon:-
+go to its github
+scroll down and go to cdn copy out
+href in html link 
+then search icon and copy its 
+gap:-
+background:linear gradient(give to colours)
+navigation bar hw
+how to make animation:-
+@keyframe identifier
+from{}
+to{}
+any prop in :-
+background color
+radius etc.
+ name and duration,delay in div
+ anima fill mode.
+ another method:-
+ break into percent points.
+ 0%{
+
+ }
+ 50%{
+
+ }
+ 100%{
+    
+ }
+
+
+ @keyword anime{
+  from{
+    left:0%;
+    bgc:red;
+  }
+  to{
+    left:50%
+    bc:blue
+  }
+ }
+ clippath css
+ bennetfilly website copy 
+ save image
+ remove.bg
+ z index
+

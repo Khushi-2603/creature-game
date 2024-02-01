@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#card{
+    height: 70%;
+    width: 20%;
+    background: white;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+
+}
+#card #nav{
+    height: 100px;
+    width: 100%;
+    border: 1px solid grey;
+    padding: 8px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    }
+#card #nav::-webkit-scrollbar{
+    display: none;
+}
+ #nav #storiyan{
+    height: 80px;
+    width: 80px;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid rgba(127, 11, 127, 0.421);
+    background: linear-gradient(to right,rgb(176, 114, 1),#6228d7,rgb(239, 5, 44),rgb(69, 11, 69));
+
+}
+ img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    object-position: center;
+    border-radius: 50%;
+
+    
+ }

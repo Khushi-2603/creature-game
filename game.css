@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family:"KNIGHT WARRIOR"
+}
+#screen1{
+    height: 100%;
+    width: 100%;
+    background: brown;
+}
+#a{
+    position: absolute;
+    top: 30%;
+    left: 31%;
+    font-size: 90px;
+    font-weight: 400;
+    font-family:"KNIGHT WARRIOR";
+}
+#b{
+    position: absolute;
+    top:43%;
+    left: 46%;
+    font-size: 40px;
+    padding: 10px 20px;
+    font-family: "KNIGHT WARRIOR";
+    font-weight: 700;
+}
+#b:hover{
+    background:rgba(168, 58, 58, 0.679);
+    scale: 0.9;
+}
+#screen2{
+    height: 100%;
+    width: 100%;
+    top: 200%;
+    /* background: yellow; */
+}
+#c{
+    position: absolute;
+    top: 130%;
+    left: 28%;
+    font-size: 90px;
+    font-weight: 400;
+    font-family:"KNIGHT WARRIOR";
+}
+#x{
+    position: absolute;
+    top:143%;
+    left: 30%;
+    height: 100px;
+    width: 100px;
+    transition: all ease 0.2s;
+}
+#w{
+    position: absolute;
+    top:143%;
+    left: 41%;
+    height: 100px;
+    width: 100px;
+    transition: all ease 0.2s;
+}
+#y{
+    position: absolute;
+    top:143%;
+    left: 53%;
+    height: 100px;
+    width: 100px;
+    transition: all ease 0.2s;
+}
+#z{
+    position: absolute;
+    top:143%;
+    left: 65%;
+    height: 100px;
+    width: 100px;
+    transition: all ease 0.2s;
+}
+img{
+    height: 97px;
+}
+
+#x:hover{
+    background: rgba(226, 26, 26, 0.574);
+    scale: 1.3;
+}
+#w:hover{
+    background: rgba(234, 24, 94, 0.717);
+    scale: 1.3;
+}
+#y:hover{
+    background: greenyellow;
+    scale: 1.3;
+}
+#z:hover{
+    background-color: rgba(89, 89, 233, 0.795);
+    scale: 1.3;
+}
+#screen3{
+    height: 100%;
+    width: 100%;
+    background-color:#35090ff4;
+    color: burlywood;
+   /* z-index: 10; */
+}

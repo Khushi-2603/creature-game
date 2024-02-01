@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background: grey;
+}
+#box{
+    background-color: black;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    
+}
+#imgs{
+    height: 100%;
+    width: 60%;
+    background: red;
+    
+}
+#imgs img{
+    height: 100%;
+    width: 100%;
+}
+#main #nav{
+    height:5%;
+    width: 100%;
+    /* background-color:blue; */
+    position: absolute;
+    top: 0%;
+    display: flex;
+    align-items:center;
+    justify-content:flex-end;
+    padding-top: 40px;
+    padding-right: 50px;
+    gap:40px;
+
+}
+#main #line{
+    width: 97%;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    left: 2%;
+    top: 63px;
+    z-index: 1;
+}
+#nav h4{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#nav2{
+    /* background-color: blueviolet; */
+    position: absolute;
+    left: 3%;
+    top: 22px;
+}
+#nav2 h2{
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(255, 1, 1);
+    font-weight:bolder;
+}
+#main #box #descp{
+       height: 60%;
+       width: 60%;
+       position: absolute;
+       top: 15%;
+       left: 5%;
+       /* background-color: white; */
+       flex-direction: column;
+       gap: 13px;
+       display: flex;
+       padding-left: 5px;
+       padding-top: 0px;
+    
+}
+#descp h1{
+    font-weight:bold;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: white;
+    
+}
+h4{
+    color: white;
+}
+h3{
+    color: white;
+}
+h5{
+   color: white;
+}
+#rating{
+    height: 5%;
+    width: 18%;
+}
+#descp button{
+    height: 10%;
+    width: 30%;
+    font-size: 18px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: rgba(176, 11, 11, 0.959);
+}
+#main #sugg{
+    height: 250px;
+    width: 100%;
+    /* background-color: red; */
+    position: absolute;
+    top: 65%;
+    overflow-x: auto;
+    white-space: nowrap;
+    /* animation-name: anime;
+   animation-duration: 5s;
+   /* animation-delay: 2s; */
+   /* animation-fill-mode: forwards;
+   animation-iteration-count: infinite;
+  animation-direction: alternate;  */
+}
+#sugg::-webkit-scrollbar{
+    display: none;
+} 
+#sugg img{
+    height: 100%;
+    display:inline-block;
+    padding: 15px;
+    position: relative;
+     animation-name: anime;
+   animation-duration: 10s;
+   animation-delay: 1s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: infinite;
+     animation-timing-function: linear;
+     transition:cubic-bezier(0.19, 1, 0.22, 1) 2s;
+
+}
+@keyframes anime {
+    from{
+        left: 0%;
+
+    }
+    to{
+       left: -50%;
+    }
+}
+#sugg img:hover{
+     height:110%;
+     width: 14%;
+}
+#name{
+    /* height: 10%; */
+    /* width: 100%;
+    color: brown;
+    position: absolute;
+    top: 90%;
+    display: flex;
+    align-items: center; */
+    /* justify-content: space-evenly; */
+}

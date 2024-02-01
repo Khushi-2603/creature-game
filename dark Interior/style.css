@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    color: rgb(182, 192, 192);
+    background-color:rgb(36, 35, 35) ;
+}
+#nav{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(36, 35, 35);
+    position: relative;
+}
+#Home{
+    height: 100%;
+    width: 50%;
+    background-color:rgb(36, 35, 35);
+    display: flex;
+    align-items:center;
+    justify-content:end;
+    gap: 50px;
+    left: 650px;
+    top: 0px;
+    position: absolute;
+    color: white;
+}
+#g{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 15px;
+    right: 25px; 
+    z-index: 999;
+    background-color: rgb(171, 169, 159);
+}
+#nav img{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+#line{
+    height: 2px;
+    width: 100%;
+    position:absolute;
+    background-color: rgba(232, 229, 205, 0.212);
+    top: 80px;
+}
+#k{
+    top: 250px;
+    left: 175px;
+    position: absolute;
+    font-size: 150px;
+    font-weight:200;
+    font-family:Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+}
+p{
+    top: 620px;
+    left: 185px;
+    position: absolute;
+    font-size: 35px;
+    color: rgba(135, 90, 90, 0.815);
+}
+
+#num{
+    top: 210px;
+    left: 185px;
+    position: absolute;
+    font-size: 35px;
+    color: white;
+}
+#big{
+    height: 670px;
+    width: 750px;
+    /* background-color: red; */
+    position: absolute;
+    top: 80px;
+    right: 00px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+#small{
+    height: 80%;
+    width: 50%;
+    background-color: rgb(238, 220, 220);
+}
+#small img{
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+}
+#smalll{
+    height: 80%;
+    width: 50%;
+    background-color: rgb(238, 220, 220);
+}
+#smalll img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#smallll{
+    height: 80%;
+    width: 50%;
+    background-color: rgb(238, 220, 220);
+}
+#smallll img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}

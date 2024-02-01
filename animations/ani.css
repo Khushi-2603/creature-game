@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#parent{
+    /* background-color:yellow; */
+    white-space: nowrap;
+    overflow-x: auto;
+    padding: 20px;
+}
+#parent::-webkit-scrollbar{
+    display: none;
+}
+h1{
+    font-size: 50px;
+    font-weight: 900;
+    -webkit-text-stroke: 3px black;
+    color: transparent;
+    display: inline-block;
+    margin-right: 20px;
+    /* background-color: red; */
+     animation-name: anime ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear ;
+}
+
+@keyframes anime {
+    from{
+        transform: translateX(0);
+        }
+    to{
+        transform: translateX(calc(-100% - 24px));
+    }
+    
+}

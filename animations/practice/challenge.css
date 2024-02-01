@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+    background-color: black;
+}
+#div1{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#nav{
+    /* background-color: white; */
+    height:10%;
+    width: 100%;
+    top: 3%;
+    position: absolute;
+    padding-left: 90px;
+    padding-top: 10px;
+}
+h2{
+    
+}
+#nav2{
+   height: 40%;
+   width: 50%;
+   /* background-color: aqua; */
+   position: absolute;
+   top: 20%;
+   left: 52%;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+
+}
+#gol{
+    height: 84%;
+    width: 4%;
+     background-color: aqua;
+     position: absolute;
+     top: 10%;
+     left: 1%;
+     overflow: hidden;
+     border-radius: 50px;
+     border: 5px solid purple;
+
+}
+#blur{
+    height: 500px;
+    width: 550px;
+    background-color: rgba(166, 23, 166, 0.803);
+    /* background-color:purple linear-gradient(blue,rgb(105, 9, 105),); */
+    box-shadow: 10px 0px 10px 10px rgb(74, 8, 74);
+    position: absolute;
+    border-radius: 50%;
+    top: -300px;
+    left: 33%;
+    filter: blur(50px);
+    rotate: 90deg;
+}
+#gol img{
+    height: 100%;
+    width: 100%;
+}
+#h{
+    color: white;
+    font-weight: lighter;
+    opacity: 25%;
+
+}h2{
+    color: white;
+}
+
+h4{
+    color: white;
+    font-weight:10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    font-weight: 600;
+
+}
+#word{
+    height: 10%;
+    width: 50%;
+    position: absolute;
+    left: 35%;
+    top: 63%;
+    /* background: red; */
+}
+#g{
+    word-spacing: 2px;
+    margin-left: 10px;
+    color: whitesmoke;
+    opacity:60%;
+    font-weight: 200;
+
+}
+#f{
+    opacity: 40%;
+    color: white;
+    font-weight:lighter;
+    
+    
+}
+#a {
+    font-size:95px ;
+    font-weight: 100;
+    color: blueviolet;
+    position: absolute;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top:37%;
+    left: 36%;
+    
+}
+#t{
+    font-size:95px ;
+    font-weight: 100;
+    color:white;
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top:48%;
+    left: 31%;
+}
+#box{
+    background: linear-gradient(  royalblue ,purple,violet);
+    padding: 10px 10px ;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: 75%;
+    width: 20%;
+    transform: translate(-50%,0);
+    border-radius: 5px;
+    font-weight: 700;
+    margin-top: 20px;
+    border: none;
+    box-shadow: 0px 20px 100px 20px purple;
+}

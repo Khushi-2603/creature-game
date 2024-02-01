@@ -1,0 +1,303 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+    width: 100%;
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+}
+#page1 img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+#nav{
+    height: 50px;
+    width: 100%;
+    /* background-color: black; */
+    position: absolute;
+    top: 00px;
+    display: flex;
+}
+#navpart1{
+    height: 100%;
+    width: 50%;
+    /* background-color:yellow; */
+    padding: 10px 30px ;
+}
+#navpart1 h1{
+  font-size: 20px;
+  color: white;
+}
+#contant1{
+    height: 500px;
+    width: 600px;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+#contant1 h1{
+    font-size: 50px;
+    /* font-weight: bolder; */
+    position: absolute;
+    top: 90px;
+    left: 00px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    color: white;
+}
+#g{
+    font-size: 55px;
+    /* font-weight: bolder; */
+    font-weight: 900;
+    position: absolute;
+    top: 145px;
+    left: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: -webkit-linear-gradient(10deg,rgb(4, 205, 205), rgb(34, 34, 153), purple,rgb(215, 16, 49));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#o{
+    font-size: 55px;
+    /* font-weight: bolder; */
+    font-weight: 900;
+    position: absolute;
+    top: 205px;
+    left: 00px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: -webkit-linear-gradient( 10deg,rgb(4, 205, 205), rgb(34, 34, 153), purple,rgb(215, 16, 49));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#contant1 p{
+    font-size: 15px;
+    position: absolute;
+    top: 300px;
+    left: 00px;
+    color: white;
+}
+#contant1 button{
+    height: 30px;
+    width: 100px;
+    border-radius: 50px;
+    position: absolute;
+    top: 380px;
+    left: 10px;
+    border: none;
+    color: white;
+    background: -webkit-linear-gradient( 10deg,rgb(4, 205, 205), rgb(34, 34, 153),rgb(215, 16, 49));
+}
+#contant1 h4{
+    position: absolute;
+    font-size: 15px;
+    top: 389px;
+    left: 130px;
+    color: white;
+}
+#navpart2{
+    height: 100%;
+    width: 50%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 0px 50px;
+    color: white;
+}
+#navpart2 button{
+    height: 30px;
+    width: 80px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.637);
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: #272151;
+}
+#card1{
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+    border-top-right-radius: 100px;
+    position: absolute;
+    top: 130%;
+    left: 30px;
+    overflow: hidden;
+}
+#card1 img{
+    height: 100%;
+}
+#card2{
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+    border-top-right-radius: 100px;
+    position: absolute;
+    top: 110%;
+    left: 300px;
+    overflow: hidden;
+}#card2 img{
+    height: 100%;
+}
+#card3{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border-top-left-radius: 100px;
+    position: absolute;
+    top: 155%;
+    left: 300px;
+    overflow: hidden;
+}
+#card3 img{
+    height: 100%;
+    
+}
+#contant2{
+    height: 500px;
+    width: 700px;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 110%;
+    right: 50px;
+}
+#contant2 h1{
+    font-size: 50px;
+    /* font-weight: bolder; */
+    position: absolute;
+    top: 8%;
+    left: -00%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    background: -webkit-linear-gradient( 10deg,rgb(4, 205, 205), rgb(34, 34, 153),purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#contant2 h2{
+    font-size: 55px;
+    font-weight: 900;
+    position: absolute;
+    top: 30%;
+    left: 00%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+#contant2 h3{
+    font-size: 55px;
+    font-weight: 900;
+    position: absolute;
+    top: 19%;
+    left: 50%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+#contant2 p{
+    position: absolute;
+    top: 60%;
+    left: 00%;
+    color: white;
+}
+#b1{
+    height: 30px;
+    width: 100px;
+    border-radius: 50px;
+    position: absolute;
+    top: 380px;
+    left: 10px;
+    border: none;
+    color: white;
+    background: -webkit-linear-gradient( 10deg,rgb(4, 205, 205), purple,rgb(215, 16, 49));
+}
+#b2{
+    height: 30px;
+    width: 100px;
+    border-radius: 50px;
+    position: absolute;
+    top: 380px;
+    left: 130px;
+    border: none;
+    color: white;
+    background-color: transparent;
+    border: 1px solid grey;
+}
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: #272151;
+}
+#ellips{
+    height: 200px;
+    width: 400px;
+    background-color: rgb(196, 18, 48);
+    border-radius: 50%;
+    position: absolute;
+    top: 220%;
+    rotate: 12deg;
+    right: 80px;
+}
+#page3 img{
+    position: absolute;
+    top: 226%;
+    /* rotate: 12deg; */
+    right: 120px;
+    z-index: 10;
+    /* background-color: rgb(196, 18, 48); */
+
+}
+#ellips2{
+    height: 200px;
+    width: 400px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    position: absolute;
+    top: 215%;
+    z-index: 15;
+    rotate: 13deg;
+    right: 80px;
+}
+#contant3{
+    height: 200px;
+    width: 600px;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 215%;
+    left: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+
+}
+#contant3 h1{
+    font-size: 55px;
+    font-weight: 900;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: -webkit-linear-gradient(10deg,rgb(4, 205, 205), rgb(34, 34, 153), purple,rgb(215, 16, 49));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#contant3 h2{
+    font-size: 55px;
+    font-weight: 900;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+#contant3 p{
+    color: white;
+}

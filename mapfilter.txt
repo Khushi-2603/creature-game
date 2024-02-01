@@ -1,0 +1,34 @@
+*Array.map()*
+
+Array.map() ek naya array banata hai kisi bane hue array ke elements ko transform karke
+
+
+*Questions on map()*
+
+1. Square the value of every element in the array
+
+2. Take an array of strings containing words in lowercase and transform it into an array where each word is capitalized.
+
+3. Transform an array of strings by adding a prefix, like "Mr. " or "Ms. ", to each string using map().
+
+4. Given an array of temperatures in Celsius, create a new array that converts each temperature to Fahrenheit using the formula (Celsius * 9/5) + 32.
+
+______________________________________________
+
+*Array.filter()*
+
+Array.filter() ek naya array banata hai kisi bane hue array ke elements kuch elements ko filter karke kisi condition ke basis par
+
+
+*Questions on filter()*
+
+1. Given an array of numbers (positive and negative), filter it to get only the positive numbers.
+
+2. Filter an array of numbers to only include the even numbers.
+
+3. Given an array of strings, filter it to obtain only the words that have more than 5 characters.
+
+
+
+In shrot, map() transforms each element in an array according to a function, creating a new array of the same length, while filter() selects elements from an array based on a condition, producing a new array with only the elements that satisfy that condition.
+

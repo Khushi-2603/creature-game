@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+    overflow: hidden;
+    font-family:"KNIGHT WARRIOR"
+}
+#first{
+    font-size: 45px;
+    text-transform: uppercase;
+    height: 100%;
+    width: 100%;
+    font-weight: lighter;
+    /* background-color :black; */
+    background-color: #12372A;
+    color: #ADBC9F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+}
+#first button{
+    text-transform:uppercase;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: "KNIGHT WARRIOR";
+    height: 50px;
+    width: 120px;
+    border-radius: 5px;
+    /* color: white; */
+    color: #ADBC9F;
+    border: 2px solid white;
+    background-color: transparent;  
+}
+#first button:active{
+    scale:0.9;
+    /* transition: all linear 0.1s; */
+}
+#first button:hover{
+    cursor: pointer;
+    background-color:white;
+    color: black;
+}
+#second{
+    font-size: 40px;
+    text-transform: uppercase;
+    height: 100%;
+    width: 100%;
+    /* background-color:black; */
+    background-color: #12372A;
+    /* color:white; */
+    color: #ADBC9F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-weight: lighter;
+}
+#card{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 30px;
+    overflow: hidden;
+
+}
+.card1 img{
+    padding-top: 40px;
+    padding-left: 27px;
+    height: 80%;
+    transition: all ease 0.5s;
+    /* width: 100%; */
+}
+.card1 img:hover{
+    scale: 1.5;
+    /* background-color: white; */
+}
+
+.card1{
+    height: 200px;
+    width: 170px;
+    /* border: 2px solid burlywood; */
+}
+#third{
+    height: 100%;
+    width: 100%;
+    /* background-color:rgba(0, 0, 0, 0.998); */
+    background-color: #12372A;
+    color: #ADBC9F;
+    /* color: white; */
+   /* z-index: 10; */
+}
+#time-score{
+    width: 100%;
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid burlywood;
+}
+#time-score h4{
+    font-size: 22px;
+}
+#time-score h5{
+    font-size: 22px;
+}
+.playground{
+    height: 90%;
+    width: 100%;
+    position: relative;
+    /* background-color: aqua; */
+}
+.playground img{
+    height: 200px;
+    position: absolute;
+    /* background-color:#35090ff4; */
+}

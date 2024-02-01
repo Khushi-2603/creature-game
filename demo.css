@@ -1,0 +1,162 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    /* font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    /* font-family:sans-serif; */
+    /* font-family:serif; */
+    font-family:serif;
+    font-weight:inherit;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+#nav{
+    height: 70px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    padding-top: 10px;
+}
+#navpart1{
+    display: flex;
+    gap: 20px;
+    /* background-color: red; */
+    width: 40%;
+}
+#navpart1 h4{
+    font-size: 15px;
+    font-weight: 100;
+}
+#nav img{
+    gap: 1px;
+    height: 35px;
+}
+#navpart2{
+    /* background-color: red; */
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+#navpart2 button{
+    height: 50px;
+    width: 90px;
+    /* border: 2px solid black; */
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+#navpart2 #Log{
+    background-color: white;
+    color: black;
+    border: 0cap;
+}
+#content{
+    height: 75%;
+    width: 70%;
+    /* background-color: red; */
+    position: absolute;
+    left: 15%;
+    top:05%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    position: relative;
+}
+#content #father{
+   position: absolute;
+   top: 25%;
+   font-size: 70px;
+   font-family:serif;
+   font-weight:inherit;
+}
+#content #child{
+    position: absolute;
+    font-size: 70px;
+    top: 40%;
+    font-family:serif;
+    font-weight:inherit;
+}
+#content p{
+    position: absolute;
+    top: 65%;
+    font-family:serif;
+    font-weight:inherit;
+    font-size: 20px;
+}
+#content #over{
+    position: absolute;
+    top: 10%;
+    height: 10%;
+    width: 27%;
+    border-radius: 50px;
+    border: 0cap;
+    background-color: rgba(240, 75, 108, 0.505);
+    font-family:serif;
+    font-weight:inherit;
+}
+#content #hiring{
+    position: absolute;
+    bottom: 15%;
+    height: 10%;
+    width: 15%;
+    border-radius: 50px;
+    border: 0cap;
+    background-color: rgb(5, 5, 21);
+    color: white;
+    font-family:serif;
+    font-weight:inherit;
+}
+#line{
+    height: 250px;
+    width: 100%;
+    /* background-color: red; */
+    position: absolute;
+    top: 100;
+    overflow-x: auto;
+    white-space: nowrap;
+    /* animation-name: anime;
+   animation-duration: 5s;
+   /* animation-delay: 2s; */
+   /* animation-fill-mode: forwards;
+   animation-iteration-count: infinite;
+  animation-direction: alternate;  */
+} 
+#line::-webkit-scrollbar{
+    display: none;
+} 
+#line img{
+    height: 100%;
+    display:inline-block;
+    padding: 15px;
+    border-radius: 40px;
+    position: relative;
+     animation-name: anime;
+   animation-duration: 10s;
+   animation-delay: 1s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;  
+
+}
+@keyframes anime {
+    from{
+        left: 0%;
+
+    }
+    to{
+       left: -50%;
+    }
+}
